@@ -1,0 +1,19 @@
+﻿Todos os controllers tem que ser extendido do BaseController para conseguir identificar a cultura (Idioma)
+
+----------------------------------
+
+Indicações para a tabela Resources
+Nota: Fazer igual para os dois ficheiros
+Name=Nome do Campo value=Nome do Campo (Traduzido ou Escrito de forma correta)
+Não é necessário introduzir o campo da validação (Required, Range, Length) basta introduzir a anotação para cada uma delas, se necessário.
+
+Indicação do Nome Campo:
+
+	Nome do campo_Nome do modelo;
+
+Anotações nos Modelos:
+
+	[StringLength (250, ErrorMessageResourceType = typeof(Resources), ErrorMessageResourceName = "Length")]
+	[Range (0,250, ErrorMessageResourceType = typeof(Resources), ErrorMessageResourceName = "Range")]
+	[Required ( ErrorMessageResourceType = typeof(Resources), ErrorMessageResourceName = "Required")]
+	[Display(Name="Nome do campo")]

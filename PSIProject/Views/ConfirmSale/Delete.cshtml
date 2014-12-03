@@ -1,0 +1,80 @@
+﻿@model PSIProject.Models.Auctions.ConfirmSale
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>ConfirmSale</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Buyer.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Buyer.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Seller.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Seller.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ConfirmationCode)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ConfirmationCode)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.BuyerConfirmed)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.BuyerConfirmed)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.BuyerDateConfirmation)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.BuyerDateConfirmation)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SellerConfirmed)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SellerConfirmed)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SellerDateConfirmation)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SellerDateConfirmation)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

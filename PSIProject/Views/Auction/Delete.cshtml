@@ -1,0 +1,152 @@
+﻿@model PSIProject.Models.Auctions.Auction
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Auction</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Category.CategoryName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Category.CategoryName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PostalCode.ZipCode)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PostalCode.ZipCode)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.User.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.User.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Title)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Title)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Description)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Description)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ArticleStatus)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ArticleStatus)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DeliveryCondition)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DeliveryCondition)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DateTimeBegin)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DateTimeBegin)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DateTimeEnd)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DateTimeEnd)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.StartingPrice)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.StartingPrice)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.MinPrice)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MinPrice)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DirectSell)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DirectSell)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.BuyNowPrice)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.BuyNowPrice)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ShipmentCondition)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ShipmentCondition)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Extended)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Extended)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Status)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Status)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

@@ -1,0 +1,327 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ArticleStatus_Auction" xml:space="preserve">
+    <value>Estado do artigo</value>
+  </data>
+  <data name="Auction_Picture" xml:space="preserve">
+    <value>Leilão</value>
+  </data>
+  <data name="Auction_ReportedAuction" xml:space="preserve">
+    <value>Leilão</value>
+  </data>
+  <data name="Auction_Sale" xml:space="preserve">
+    <value>Leilão</value>
+  </data>
+  <data name="Buyer_Sale" xml:space="preserve">
+    <value>Comprador</value>
+  </data>
+  <data name="BuyNowPrice_Auction" xml:space="preserve">
+    <value>Preço compra direta</value>
+  </data>
+  <data name="Category_Auction" xml:space="preserve">
+    <value>Categoria</value>
+  </data>
+  <data name="ConfirmSale_Sale" xml:space="preserve">
+    <value>Confirmação de Venda</value>
+  </data>
+  <data name="CurrencyFormat" xml:space="preserve">
+    <value>Formato errado! O formato correto 111111111,11</value>
+  </data>
+  <data name="CurrencyType" xml:space="preserve">
+    <value>O campo {0} deve ser um valor monetário</value>
+  </data>
+  <data name="DateType" xml:space="preserve">
+    <value>O campo {0} deve ser uma data.</value>
+  </data>
+  <data name="Date_ReportedAuctions" xml:space="preserve">
+    <value>Data</value>
+  </data>
+  <data name="DeliveryCondition_Auction" xml:space="preserve">
+    <value>Condição de entrega</value>
+  </data>
+  <data name="Description_FeedbackItem" xml:space="preserve">
+    <value>Descrição</value>
+  </data>
+  <data name="Description_PointsTable" xml:space="preserve">
+    <value>Descrição</value>
+  </data>
+  <data name="Description_Text" xml:space="preserve">
+    <value>Descrição</value>
+  </data>
+  <data name="DirectSell_Auction" xml:space="preserve">
+    <value>Venda direta</value>
+  </data>
+  <data name="EndDate_Auction" xml:space="preserve">
+    <value>Data de Fim</value>
+  </data>
+  <data name="Extended_Auction" xml:space="preserve">
+    <value>Extendido</value>
+  </data>
+  <data name="Length" xml:space="preserve">
+    <value>O campo {0} deve ser uma frase com um comprimento máximo de {1}.</value>
+  </data>
+  <data name="LengthMinimum" xml:space="preserve">
+    <value>O campo {0} deve ser uma frase com um comprimento mínimo de {2} e um comprimento máximo de {1}</value>
+  </data>
+  <data name="LowValue_BidIncrement" xml:space="preserve">
+    <value>Valor Mínimo</value>
+  </data>
+  <data name="MaxValue_BidIncrement" xml:space="preserve">
+    <value>Valor Máximo</value>
+  </data>
+  <data name="MinPrice_Auction" xml:space="preserve">
+    <value>Preço Mínimo</value>
+  </data>
+  <data name="Motive_ReportedAuction" xml:space="preserve">
+    <value>Motivo</value>
+  </data>
+  <data name="Name_Auction" xml:space="preserve">
+    <value>Leilão</value>
+  </data>
+  <data name="Name_BidValueInc" xml:space="preserve">
+    <value>Valor de incremento da licitação</value>
+  </data>
+  <data name="Name_Category" xml:space="preserve">
+    <value>Nome</value>
+  </data>
+  <data name="Name_County" xml:space="preserve">
+    <value>Concelho</value>
+  </data>
+  <data name="Name_District" xml:space="preserve">
+    <value>Distrito</value>
+  </data>
+  <data name="Name_Locality" xml:space="preserve">
+    <value>Freguesia</value>
+  </data>
+  <data name="Name_PostalCode" xml:space="preserve">
+    <value>Código Postal</value>
+  </data>
+  <data name="Name_Tag" xml:space="preserve">
+    <value>Nome</value>
+  </data>
+  <data name="Name_User" xml:space="preserve">
+    <value>Utilizador</value>
+  </data>
+  <data name="Number_PointsTable" xml:space="preserve">
+    <value>Número de Pontos</value>
+  </data>
+  <data name="Order_Picture" xml:space="preserve">
+    <value>Ordem</value>
+  </data>
+  <data name="Parent_Category" xml:space="preserve">
+    <value>Categoria Superior</value>
+  </data>
+  <data name="Path_Picture" xml:space="preserve">
+    <value>Caminho</value>
+  </data>
+  <data name="PostalCodeFormat" xml:space="preserve">
+    <value>Formato errado! O formato correto é 1111-111</value>
+  </data>
+  <data name="PostalCode_Auction" xml:space="preserve">
+    <value>Código Postal</value>
+  </data>
+  <data name="Range" xml:space="preserve">
+    <value>O campo {0} deve estar entre {1} e {2}.</value>
+  </data>
+  <data name="ReportedBy_ReportedAuction" xml:space="preserve">
+    <value>Reportado por</value>
+  </data>
+  <data name="Required" xml:space="preserve">
+    <value>O campo {0} é obrigatório.</value>
+  </data>
+  <data name="Seller_Sale" xml:space="preserve">
+    <value>Vendedor</value>
+  </data>
+  <data name="ShipmentCondition_Auction" xml:space="preserve">
+    <value>Condições de porte</value>
+  </data>
+  <data name="StartDate_Auction" xml:space="preserve">
+    <value>Data de Início</value>
+  </data>
+  <data name="StartingPrice_Auction" xml:space="preserve">
+    <value>Preço inicial</value>
+  </data>
+  <data name="Status_Auction" xml:space="preserve">
+    <value>Estado</value>
+  </data>
+  <data name="Title_Auction" xml:space="preserve">
+    <value>Título</value>
+  </data>
+  <data name="Title_Text" xml:space="preserve">
+    <value>Título</value>
+  </data>
+  <data name="Type_Text" xml:space="preserve">
+    <value>Tipo</value>
+  </data>
+  <data name="ValueToAdd_BidIncrement" xml:space="preserve">
+    <value>Valor a Adicionar</value>
+  </data>
+  <data name="BuyerConfirmed_ConfirmSale" xml:space="preserve">
+    <value>Comprador confirmado</value>
+  </data>
+  <data name="BuyerDateConfirmation_ConfirmSale" xml:space="preserve">
+    <value>Confirmação da data de compra</value>
+  </data>
+  <data name="Buyer_ConfirmSale" xml:space="preserve">
+    <value>Comprador</value>
+  </data>
+  <data name="ConfirmationCode_ConfirmSale" xml:space="preserve">
+    <value>Código de Confirmação</value>
+  </data>
+  <data name="SellerConfirmed_ConfirmSale" xml:space="preserve">
+    <value>Vendedor confirmado</value>
+  </data>
+  <data name="SellerDateConfirmation_ConfirmSale" xml:space="preserve">
+    <value>Confirmação da data de venda</value>
+  </data>
+  <data name="Seller_ConfirmSale" xml:space="preserve">
+    <value>Vendedor</value>
+  </data>
+  <data name="Code_AccountViewModels" xml:space="preserve">
+    <value>Código</value>
+  </data>
+  <data name="ConfirmPassword_AccountViewModels" xml:space="preserve">
+    <value>Confirmar password</value>
+  </data>
+  <data name="Email_AccountViewModels" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="Name_AccountViewModels" xml:space="preserve">
+    <value>Nome</value>
+  </data>
+  <data name="PasswordType" xml:space="preserve">
+    <value>{0} é diferente da password de confirmação</value>
+  </data>
+  <data name="Password_AccountViewModels" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="RememberBrowser_AccountViewModels" xml:space="preserve">
+    <value>Lembrar-se do browser</value>
+  </data>
+  <data name="RememberMe_AccountViewModels" xml:space="preserve">
+    <value>Lembrar-se de mim</value>
+  </data>
+  <data name="Description_Auction" xml:space="preserve">
+    <value>Detalhes</value>
+  </data>
+  <data name="Photo_AccountViewModels" xml:space="preserve">
+    <value>Fotografia</value>
+  </data>
+</root>
